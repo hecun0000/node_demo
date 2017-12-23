@@ -31,16 +31,16 @@ function acquireData(url, data) {
     var $ = cheerio.load(data);
 
     var meizi = $('.single-text>p img').toArray();
-
-    console.log(meizi);
+    console.log( $('.single-text>p img'));
+    // console.log(meizi);
     var imgsrc = meizi[0].namespace;
 
     for (var i = 1; i < meizi.length; i++) {
         var imgsrc = meizi[i].attribs.src;
-        console.log(imgsrc);
+        // console.log(imgsrc);
         var filename = parseUrlForFileName(imgsrc); //生成文件名
         downloadImg(imgsrc, filename, './mei' , function() {
-            console.log(filename + ' done');
+            // console.log(filename + ' done');
         });
     }
 }
