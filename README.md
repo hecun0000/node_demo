@@ -8,4 +8,7 @@
  npm install //安装项目依赖
  node index.js 
  node demo2.js
+ node demo.js
 ```
+## 简单的介绍  
+index.js 是利用nodejs爬虫的尝试 
