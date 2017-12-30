@@ -5,6 +5,6 @@
 
 ## 运行
 
-- npm install 安装项目依赖
-- node index.js 
-- node demo2.js
+` npm install //安装项目依赖`
+` node index.js `
+` node demo2.js`
