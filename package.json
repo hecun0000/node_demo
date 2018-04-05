@@ -17,7 +17,8 @@
     "fs": "^0.0.1-security",
     "mkdirp": "^0.5.1",
     "path": "^0.12.7",
-    "request": "^2.83.0",
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2",
     "superagent": "^3.8.2"
   }
 }
